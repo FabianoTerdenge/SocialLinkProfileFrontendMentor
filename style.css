@@ -55,7 +55,7 @@ a:hover {
     border: black 0 solid;
     color: var(--custom-off-black);
 }
-p {
+p,h1 {
     font-size: 14px;
     color: var(--custom-white);
     font-family: inter-bold, sans-serif;
