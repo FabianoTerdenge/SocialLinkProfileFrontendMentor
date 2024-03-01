@@ -7,7 +7,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
     align-items: center;
     --custom-green: hsl(75, 94%, 57%);
     --custom-white: hsl(0, 0%, 100%);
