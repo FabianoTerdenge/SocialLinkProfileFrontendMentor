@@ -3,6 +3,16 @@
     src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
     font-weight: 600;
 }
+@font-face {
+    font-family: inter-bold7;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: inter-bold4;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 400;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -60,7 +70,7 @@ p,
 h1 {
     font-size: 14px;
     color: var(--custom-white);
-    font-family: inter-bold, sans-serif;
+    font-family: inter-bold7, sans-serif;
     text-align: center;
 }
 .name {
@@ -82,7 +92,7 @@ img {
         width: 110px;
     }
 }
-@media (min-width: 600px) and (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 1300px) {
     main {
         width: 60%;
     }
